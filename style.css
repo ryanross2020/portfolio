@@ -1,0 +1,36 @@
+/* Setup Code */
+
+/*
+--font code--
+*/
+
+:root {
+    --mainColor: ;
+    --backgroundColor: ;
+    --neutralColor: ;
+    --textColor: ;
+    --titleColor: ;
+    --accentColor: ;
+    --popColor: ;
+
+    --titleFont: ;
+    --textFont: ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid gold; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--titleFont);
+}
+
+body {
+    font-family: var(--textFont);
+    text-align: center;
+}
+
+/* Project Specific Styles */
