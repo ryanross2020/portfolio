@@ -4,75 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Ross Portfolio Website</title>
-    <link rel="stylesheet" type="tect/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="app.js" defer></script>
+    <link rel="shortcut icon" type="image/png" href="img/apple-touch-icon.png">
 </head>
 <body>
-    <header><img src="" alt=""></img></header>
+    <header class="header">
+        <img id="logo" src="img/header-logo.svg" alt=""></img>
+    </header>
     <div class="intro">
-        <h1>HELLO</h1>
-        <p>Introduction</p>
+        <h1>HELLO WORLD</h1>
+        <p>I have always been a very expressive person with an appetite for new challenges. As a trained chef, planning and preparation were required to execute a series of complex steps. Add a dash of creativity, and something truly spectacular can happen. I bring these same skills and a passion for reinvention to my work as a web developer. </p>
+        <button><a href="#biography">MORE ABOUT ME</a></button>
     </div>
     <div class="projects">
         <h2>PROJECTS</h2>
-        <ul>
-            <li>
+        <div class="container">
+            <div class="card">
                 <img src="" alt=""></img>
                 <h3>Project 1</h3>
+                <a href=""></a>
                 <p>General Assembly</p>
-            </li>
-            <li>
+            </div>
+            <div class="card">
                 <img src="" alt=""></img>
-                <h3>Project 1</h3>
+                <h3>Project 2</h3>
                 <p>General Assembly</p>
-            </li>
-            <li>
+            </div>
+            <div class="card">
                 <img src="" alt=""></img>
-                <h3>Project 1</h3>
+                <h3>Project 3</h3>
                 <p>General Assembly</p>
-            </li>
-            <li>
+            </div>
+            <div class="card">
                 <img src="" alt=""></img>
-                <h3>Project 1</h3>
+                <h3>Project 4</h3>
                 <p>General Assembly</p>
-            </li>
-            <li>
+            </div>
+            <div class="card">
                 <img src="" alt=""></img>
-                <h3>Project 1</h3>
+                <h3>Bookmarkd</h3>
                 <p>General Assembly</p>
-            </li>
-            <li>
-                <img src="" alt=""></img>
-                <h3>Project 1</h3>
-                <p>General Assembly</p>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
     <div class="links">
-        <img src="" alt=""></img>
-        <ul>
-            <li><link><img src="" alt=""></link></li>
-            <li><link><img src="" alt=""></link></li>
-            <li><link><img src="" alt=""></link></li>
-            <li><link><img src="" alt=""></link></li>
-            <li><link><img src="" alt=""></link></li>
-        </ul>
+            <a href="https://github.com/ryanross2020"><img class="icons" src="img/github.svg" alt=""></a>
+            <a href="linkedin.com/in/ryan-d-ross"><img class="icons" src="img/linkedin.svg" alt=""></a>
+            <a href="https://medium.com/@ryguyeditor"><img class="icons" src="img/medium3.svg" alt=""></a>
+            <a href="https://www.instagram.com/ryan.ross.1/"><img class="icons" src="img/instagram.svg" alt=""></a>
+            <a href="mailto:ryandross00@gmail.com"><img class="icons" src="img/mail.svg" alt=""></a>
     </div>
     <div class="resume">
-        <img src="" alt=""></img>
-        <button>DOWNLOAD</button>
+        <img src="img/resume-text.svg" class="text" />
+        <img src="img/resume-graphic.svg" class="graphic" />
+        <div class="intro"><button id="download"><a href="pdf/RyanDRoss-060120.pdf">DOWNLOAD</a></button></div>
     </div>
-    <div class="biography">
-        <img src="" alt=""></img>
+    <div class="biopic"></div>
+    <div class="biography" id="biography">
         <h2>ABOUT ME</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae optio minima aspernatur! Nulla ex aliquid iure veritatis eius. Placeat, inventore voluptates nam deleniti veritatis vitae blanditiis? Expedita aspernatur natus in?</p>
-        <b></b>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ratione excepturi dolor id a voluptates distinctio iure. Cum vero odit dolorum, debitis culpa magnam adipisci corrupti itaque. Ab, autem perspiciatis.</p>
-        <b></b>
-        <button>EMAIL</button>
-        <button>LINKEDIN</button>
-        <button>GITHUB</button>
+        <p>My career has been based on creating something that the consumer will enjoy. Before it was a very short term experience, memorable and enjoyable with the chance of a repeat performance because I was a chef. But now I’m learning how to create an experience that the consumer will be able to come back to and enjoy on a regular and frequent basis because of the internet. I’m looking to launch a career in web development, I’d like to work in a Web Developer role with an innovative team working to solve new websites developments or mobile phone app developments. </p>
+        <div class="buttons">
+            <button><a href="mailto:ryandross00@gmail.com">EMAIL</a></button>
+            <button><a href="linkedin.com/in/ryan-d-ross">LINKEDIN</a></button>
+            <button><a href="https://github.com/ryanross2020">GITHUB</a></button>
+        </div>
     </div>
-    <footer><img src="" alt=""></img></footer>
+    <footer class="footer">
+            <p id="foot">&copy;2020 Ryan Ross. All rights reserved.</p>
+    </footer>
 </body>
 </html>
