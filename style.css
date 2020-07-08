@@ -85,7 +85,13 @@ h2 {
     padding: 20px;
 }
 
+.plink {
+    color: var(--brick);
+    text-decoration: underline;
+}
+
 .container {
+    height: 400px;
     background-image: url('img/escheresque.jpeg');
     display: flex;
     flex-wrap: wrap;
@@ -93,8 +99,8 @@ h2 {
 }
 
 .card {
-    height: 60px;
-    width: 150px;
+    height: 120px;
+    width: 160px;
     background-color: var(--stone);
     margin-top: 10px;
     margin-bottom: 10px;
